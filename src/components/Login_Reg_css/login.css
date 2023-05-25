@@ -1,0 +1,83 @@
+.food_log {
+    background-color: orange;
+    height: 33rem;
+}
+
+.food_log_navbar-links_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.food_log_navbar-links_logo_p {
+    font-family: var(--font-familys);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height */
+    color: #ffffff;
+    margin-right: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.form-group input {
+    background-color: #dad6d6;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.log_form_contaner h1 {
+    color: #fc6c03;
+    font-family: var(--font-familys);
+}
+
+.button {
+    background-color: #fc6c03;
+    width: 70px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.log_card {
+    padding: 2rem;
+    width: 20px;
+    width: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+    text-align: right;
+    position: relative;
+    flex-direction: column;
+    flex: 1;
+}
+
+.log_container {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(235, 235, 235);
+    border: 5px solid rgb(233, 233, 233);
+    height: 25rem;
+    padding: 2rem;
+    margin: 2rem;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+
+/***************************/
+
+.log_img_hedar {
+    padding: 2rem;
+}
+
+.log_form_contaner {
+    padding: 2rem;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+:root {
+    --font-familys: 'Italianno', cursive;
+    --gradient-text: linear-gradient(89.97deg, #f0f0f0 1.84%, #eeeded 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #eb0000 -13.86%, #d10000 99.55%);
+    --color-bg: #280bce;
+    --color-footer: #ffffff;
+    --color-blog: #b42222;
+    --color-text: #ffffff;
+    --color-subtext: #ff8a71;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Kalam:wght@300&display=swap');
+:root {
+    --fonts: 'Italianno', cursive;
+    --fonts: 'Kalam', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Italianno&family=Kalam:wght@300&display=swap');
+:root {
+    --font-family: 'Inria Sans', sans-serif;
+}

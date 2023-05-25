@@ -1,0 +1,64 @@
+.food_features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 22rem;
+  margin-bottom: 0.1rem;
+  margin-top: 4rem;
+}
+
+.food_features-heading {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+/**hr line eke*/
+
+.spacial {
+  font-size: 60px;
+  line-height: 45px;
+  font-weight: 400;
+  font-family: var(--font-familys);
+  font-style: italic;
+  color: black;
+  border-bottom: 2px solid #e25111;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.heading_space {
+  border-color: #443f3f;
+  display: block;
+  margin-top: -10px;
+  width: 90%;
+  line-height: 45px;
+}
+
+.food_features-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 990px) {
+  .gpt3__features {
+    flex-direction: column;
+  }
+  .gpt3__features-heading {
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}

@@ -1,0 +1,22 @@
+.food_status_bar {
+  height: 300px;
+  align-items: center;
+  background-image: url('../../assets/r1.PNG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  font-weight: 500;
+}
+
+.food_features-heading {
+  border: 5px;
+  text-align: center;
+}
+
+.food_features-container .food_spaecial-container_feature-text {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-weight: 800;
+}
